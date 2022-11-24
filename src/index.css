@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap');
+
+.navbar-brand {
+  font-family: 'Xanh Mono', monospace;
+}
+
+.navbar-brand img {
+  width: 70px;
+}
+
+body {
+  padding-top: 75px;
+  color: #aaa;
+  background-color: #272b30;
+}
+
+.navbar-color {
+  background-color: #272b30;
+}
+
+a {
+  color: #aaa;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(28, 28, 28, .6);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+.regis,
+.regis:hover,
+.regis.active {
+  color: #4799eb !important;
+  border-color: #4799eb;
+}
+
+.bg-grey {
+  background-color: #32383e;
+}
+
+.bg-form,
+.bg-form:focus {
+  background-color: #1c1e22;
+  border: 0 solid rgba(0, 0, 0, .6);
+}
+
+.btn-form,
+.btn-form:hover {
+  background-color: #3a3f44;
+  border-color: #22241d;
+}
+
+.btn-form:active {
+  background-color: #0a58ca !important;
+  border-color: #0a53be !important;
+}
+
+.homebg {
+  background-repeat: no-repeat;
+  background-color: #1c1e22;
+  background-position: top;
+  background-size: contain;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(0, 0, 0, .6);
+  padding: 4rem 2rem;
+}
+
+.card {
+  background-color: #32383e;
+  background-clip: border-box;
+  border: 0 solid rgba(0, 0, 0, .6);
+  border-radius: 0.25rem;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+.grow:hover {
+  transform: scale(1.03);
+}
+
+.badge-ftg {
+  color: #fff;
+  background-color: #4799eb;
+}
+
+.Linky,
+.Linky:hover {
+  text-decoration: none;
+  color: #aaa;
+}
